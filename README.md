@@ -1,5 +1,7 @@
 # UNIT 3 APP
 
+  - *JUST DOWNLOAD THE CODE AND RUN INDEX.HTML ON YOUR FAVORITE BROWSER*
+
 My AP CSP Unit III Project, a paragraph analyzer.
 Not *super* practical but is a good practice for JS problem solving skills involving data structures (e.g. Two-Dimensional Arrays) and clean, responsive UI development, relying heavily on Flexbox and Grid.
 
@@ -11,8 +13,6 @@ Lots of unique algorithms, albeit quite redundant, though general efficiency is 
 Then split each case and remerge them sequentially at their original positions in the main array and use a dual for-loop matching system to get rid of the unmerged, old elements.
 But alas, once more I have ended up coming up with a good idea just as I reached the end of the process - useless. But I guess it's good for future projects. 
 
-**Notes**
-  - *JUST DOWNLOAD THE CODE AND RUN INDEX.HTML ON YOUR FAVORITE BROWSER*
 
 Thanks for reading!
 
