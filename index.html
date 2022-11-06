@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paragraph Analyzer | Computer Science App</title>
+
+    <!-- Icon -->
+        <link rel="icon" href="./resources/images/icon.png" type="image/png" />
+
+    <!-- CSS Link -->
+        <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossoriginn />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet" />
+
+    <!-- JS -->
+        <script defer src="./app.js"></script>    
+    </head>
+
+    <body>
+        <div class="flex-main">
+            <div class="nav">
+                <div class="title">
+                    <span id="title">
+                        <a href="index.html" style="text-decoration: none; color: var(--text);">Paragraph Analyzer</a>
+                    </span>
+                </div>
+
+                <div class="opener">
+                    <hr id="top"></hr>
+                    <hr id="bot"></hr>                    
+                </div>
+            </div>
+
+            <div class="opened">
+                <ul>
+                    <li>Created using JavaScript (all algorithms), HTML (structure), and CSS (Resopnsive Styling + UI)</li>
+                    <li>VS Code editor used</li>
+                    <li>1,057 Lines of Code</li>
+                    <li>How it Works: Uses algorithms which I created to complexly analyze input in JS along w/ Regular Expression (RegExp), separate, and sort it using a unique sorting algorithm, and then dynamically create a table with these values</li>
+                    <li>However, the algorithms are not perfected, as there are a few bugs when it comes to processing words with lots of punctuation attached to them</li>
+                    <li>Therefore, I would recommend using any complex <em>normal</em> punctuation (before or after a word)</li>
+                    <li>If you'd like to learn more, you can check out my <a href="https://github.com/rohannella/UNIT_3_APP" target="_blank">GitHub repository</a>!</li>
+
+                </ul>
+            </div>
+
+            <div class="grid-main">
+                <div class="left-sidebar"></div>
+
+                <div class="main-content">
+                    <form id="form" action="./app.js" method="GET">
+                        <div class="form-div">
+                            <span id="form-info">Enter your paragraph!</span>
+                            <span id="restriction">Note that words with punctuation <em>within</em> them will be considered to be one word</span>
+                            <span id="note" style="font-weight: bold;">Algorithms are not yet perfected, so please do not use like 10 commas in a row :), but any complex <em>basic</em> punctuation (i.e. ellipes, etc.) at any location can work</span>
+                            <span style="font-size: 1.25rem;" id="recommendation">Having trouble finding a paragraph? Here's a <a href="https://randomwordgenerator.com/paragraph.php" target="_blank">Paragraph Generator!</a></span>
+                            <textarea required maxlength="1500" placeholder="1500 Char. Max"></textarea>
+                            <span id="case-sensitivity-span" style="font-size: 2.15rem;">Case Sensitive?</span>
+                            <div class="case-sensitivity">
+                                <span>No</span>
+                                <input type="range" id="case-sensitivity" min="0" max="1" required />
+                                <span>Yes</span>
+                            </div>
+                            <button type="submit" id="submit-button">Generate!</button>
+                        </div>
+                    </form>
+
+                    <div class="dynamic-portion" style="display: flex; flex-direction: column; gap: 10px;">
+
+                    </div>
+                </div>
+
+                <div class="right-sidebar"></div>
+                <div class="footer">
+                    <span>Designed, Developed, and Created by <a href="https://github.com/rohannella/UNIT_3_APP" target="_blank" style="color: #E9C46A;">Rohan Nella</a></span>
+                    <img src="./resources/images/icon.png" alt="Icon Image"/>
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
