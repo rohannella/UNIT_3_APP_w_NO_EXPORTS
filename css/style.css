@@ -82,7 +82,8 @@ html {
 .title > span {
     z-index: 15;
     color: var(--text);
-    font-size: min(10vw, 3rem);
+    /* font-size: min(10vw, 3rem); */
+    font-size: 3rem;
 }
 
 #title > a {
@@ -138,7 +139,7 @@ html {
 
 .opened > ul {
     position: relative;
-    top: 12rem;
+    top: 11.5rem;
     left: 65px;
     width: 90%;
 }
