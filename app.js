@@ -455,7 +455,7 @@ elementModule.form.addEventListener('submit', e => {
             row.addEventListener('mouseleave', e => { 
                 e.preventDefault();
                 Array.from(row.childNodes).forEach(cell => {
-                    cell.style.backgroundColor = `${index % 2 === 0 ? "#264653" : "#2A9D8F"}`;
+                    cell.style.backgroundColor = `${index % 2 === 0 ? "#417387" : "#2A9D8F"}`;
                 })
                 removeHighlight(row.firstChild.innerHTML);
             })
